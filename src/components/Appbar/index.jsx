@@ -2,6 +2,7 @@ import React from "react";
 import { MenuItems } from "./Appbar";
 import Logo from "../../assets/images/logo-refactory.png";
 import "./index.css";
+import { Link } from "react-router-dom";
 
 class index extends React.Component {
   state = { clicked: false };
@@ -25,9 +26,9 @@ class index extends React.Component {
           {MenuItems.map((item, idx) => {
             return (
               <li key={idx}>
-                <a className={item.cName} href={item.url}>
+                <Link className={item.cName} to={item.url}>
                   {item.label}
-                </a>
+                </Link>
               </li>
             );
           })}

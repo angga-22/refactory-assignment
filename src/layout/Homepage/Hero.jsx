@@ -5,8 +5,8 @@ import "./index.scss";
 const index = () => {
   return (
     <>
-      <div className="container-hero">
-        <Jumbotron className="hero"></Jumbotron>
+      <div className="container-herosss">
+        <Jumbotron className="herosss"></Jumbotron>
       </div>
       <Container className="text">
         <Row>
