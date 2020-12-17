@@ -33,6 +33,7 @@ const Login = () => {
           </Col>
         </Row>
       </Container>
+      <h1>  please login with username: admin@admin.com, password : admin123</h1>
     </>
   );
 };
