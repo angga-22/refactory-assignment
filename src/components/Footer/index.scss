@@ -1,0 +1,27 @@
+.site-map, p{
+  color: #fff;
+  text-decoration: none;
+  opacity: .7;
+  &:hover{
+    color: #CD863B;
+    transition: all 0.5s ease-out;
+    text-decoration: none;
+  }
+}
+
+
+
+h5{
+    color: #fff;
+}
+.fab {
+margin-right:  30px ;
+margin-bottom: 40px;
+
+color: #fff
+
+}
+
+.list-footer{
+    list-style-type: none ;
+}
