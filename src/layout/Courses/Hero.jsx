@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Jumbotron, Row, Col, Button } from "reactstrap";
 import "./index.scss";
+import { Link } from "react-router-dom";
 
 const index = () => {
   return (
@@ -23,7 +24,7 @@ const index = () => {
               an engaging curriculum backed by real-world software projects
               ready to boost your career.
             </p>
-            <a href="/listcourse">
+            <Link to="/listcourse">
               <Button
                 style={{
                   borderRadius: "20px",
@@ -33,7 +34,7 @@ const index = () => {
               >
                 Masuk dan Mulai Belajar
               </Button>
-            </a>
+            </Link>
             <Button
               style={{
                 borderRadius: "20px",
