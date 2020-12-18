@@ -47,6 +47,7 @@ export const Course = [
     id: 2,
     image_url: dua,
     title: "HTML & CSS Introduction",
+    detail_url: "/detailcourse",
     desc:
       "Mempelajari bahasa pemrograman HTML & CSS sebagai dasar dalam pengembangan web",
   },

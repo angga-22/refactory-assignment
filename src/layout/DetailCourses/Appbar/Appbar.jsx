@@ -1,27 +1,22 @@
 export const MenuItems = [
   {
-    label: "Home",
+    label: "Courses",
     url: "/homepage",
     cName: "nav-links",
   },
   {
-    label: "Courses",
+    label: "Roadmap",
     url: "/courses",
     cName: "nav-links",
   },
   {
-    label: "Custom Training",
+    label: "Login",
     url: "#",
     cName: "nav-links",
   },
   {
-    label: "Case Studies",
+    label: "Sign Up",
     url: "#",
-    cName: "nav-links",
-  },
-  {
-    label: "Blog",
-    url: "/blog",
     cName: "nav-links",
   },
 ];
